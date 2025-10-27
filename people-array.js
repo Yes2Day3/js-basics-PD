@@ -11,7 +11,7 @@ let people = [
     },
 ]
 
-//for(let i = 0; i < people.length; i++){
-    let person = people.length
+for(let i = 0; i < people.length; i++){
+    let person = people[i]
     console.log(person.name)
-//}
+}
